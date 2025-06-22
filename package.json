@@ -1,0 +1,25 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.10",
+    "boxicons": "^2.1.4",
+    "cookie-parser": "^1.4.7",
+    "leaflet": "^1.9.4",
+    "lucide-vue-next": "^0.522.0",
+    "tailwindcss": "^4.1.10",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.3.5"
+  }
+}
