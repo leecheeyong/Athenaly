@@ -1,3 +1,4 @@
-![](/src/public/logo.png)
+![](/public/logo.png)
 # Athenaly
 Strava Route Visualization
+
