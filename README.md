@@ -1,4 +1,5 @@
-<img src="/public/logo.png" width="20">
+<img src="/public/logo.png" width="60">
+
 # Athenaly
 Strava Route Visualization
 
