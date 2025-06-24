@@ -17,6 +17,9 @@
             <div class="text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
               {{ activities.length }} activities
             </div>
+            <div class="text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
+              Demo
+            </div>
             <div v-if="isAnimating" class="flex items-center space-x-2 text-orange-500">
               <div class="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></div>
               <span class="text-sm font-medium">Animating</span>
