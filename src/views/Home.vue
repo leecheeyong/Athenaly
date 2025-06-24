@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-50">
+  <div class="flex flex-col min-h-screen">
     <!-- Header -->
     <header class="bg-white border-b border-gray-200">
       <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -44,7 +44,13 @@
                 </svg>
                 Connect with Strava
               </button>
-            
+              <button
+                @click="goDemo"
+                class="inline-flex items-center justify-center px-8 py-4 bg-gray-200 text-gray-800 font-semibold rounded-lg hover:bg-gray-300 transition-colors"
+              >
+               <svg class="w-5 h-5 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 9.783V4h1V2H8v2h1v5.783l-4.268 9.389a1.992 1.992 0 0 0 .14 1.911A1.99 1.99 0 0 0 6.553 22h10.895a1.99 1.99 0 0 0 1.681-.917c.37-.574.423-1.289.14-1.911L15 9.783zm-4.09.631c.06-.13.09-.271.09-.414V4h2v6c0 .143.03.284.09.414L15.177 15H8.825l2.085-4.586z"></path></svg>
+                Try me out
+              </button>
             </div>
           </div>
 
@@ -96,19 +102,12 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-white border-t border-gray-200">
-      <div class="max-w-6xl mx-auto px-6 py-12">
-        <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <div class="flex items-center space-x-3">
-            <div class="w-6 h-6 bg-purple-600 rounded flex items-center justify-center">
-              <TrendingUp class="h-4 w-4 text-white" />
-            </div>
-            <div>
-              <span class="font-bold text-gray-900">Athenaly</span>
-              <span class="text-sm text-gray-500 ml-2">Route Visualizer</span>
-            </div>
-          </div>
-        </div>
+    <footer class="bg-white border-t border-gray-200 mt-auto">
+      <div class="max-w-6xl mx-auto px-6 py-6 text-center text-sm text-gray-500">
+        Made with <span class="text-red-500">♥</span> by 
+        <a href="https://github.com/leecheeyong" class="underline hover:text-purple-600" target="_blank" rel="noopener">Chee Yong Lee</a> ·
+        Project is under the terms of 
+        <a href="https://github.com/leecheeyong/Athenaly/blob/main/LICENSE" class="underline hover:text-purple-600" target="_blank" rel="noopener">MIT License</a>
       </div>
     </footer>
   </div>
@@ -117,15 +116,13 @@
 <script setup>
 import { 
   TrendingUp, 
-  Play, 
-  Palette, 
-  Zap, 
-  Download,
-  Route
 } from 'lucide-vue-next'
 
 const connectStrava = () => {
     window.location.href = "/activity"
+}
+const goDemo = () => {
+    window.location.href = "/demo"
 }
 </script>
 
