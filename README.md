@@ -1,4 +1,4 @@
-![](/public/logo.png)
+<img src="/public/logo.png" width="20">
 # Athenaly
 Strava Route Visualization
 
