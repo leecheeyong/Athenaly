@@ -15,6 +15,11 @@ const routes = [
     path: '/activity',
     name: 'Visualization',
     component: () => import('@/views/Visualizer.vue')
+  },
+   {
+    path: '/demo',
+    name: 'Demo',
+    component: () => import('@/views/Demo.vue')
   }
 ]
 
