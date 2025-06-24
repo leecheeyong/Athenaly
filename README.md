@@ -10,7 +10,7 @@ Strava Route Visualization
 - Created using Vue, Vite & Tailwindcss
 
 > [!NOTE]  
-> The entire project must be self-hosted for now as Strava third-party application is only available to the owner
+> The entire project must be self-hosted for now as Strava third-party application is [doesn't allow multiple account authorization](https://communityhub.strava.com/developers-api-7/strava-api-multiple-account-authorization-1729). Try out the [Demo](https://athenaly.vercel.app/demo) to see how it works !
 
 ## Setup
 - This project consist of the frontend (Vue) & backend (Express.js server)
